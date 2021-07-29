@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img src="/logo.svg" width="300" /><br /><br />
+    <img src="../assets/logo.svg" width="300" /><br /><br />
     --<br /><br />
     <div v-if="!account">
       <b-button type="is-primary" v-on:click="switchNetwork('polygon')"
